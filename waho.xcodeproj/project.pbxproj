@@ -20,6 +20,15 @@
 		B9A952291B2B776100485EC8 /* EstablishmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A952281B2B776100485EC8 /* EstablishmentViewController.m */; };
 		B9F430781B2F4D84007CB828 /* ListEstablishmentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F430771B2F4D84007CB828 /* ListEstablishmentTableViewController.m */; };
 		B9F4307B1B2F5EEC007CB828 /* SaveEstablishmentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F4307A1B2F5EEC007CB828 /* SaveEstablishmentTableViewController.m */; };
+		B9F430811B31FCCB007CB828 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F430801B31FCCB007CB828 /* MapViewController.m */; };
+		B9F4308C1B321450007CB828 /* Gravity-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F430841B321450007CB828 /* Gravity-Bold-Italic.ttf */; };
+		B9F4308D1B321450007CB828 /* Gravity-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F430851B321450007CB828 /* Gravity-Bold.ttf */; };
+		B9F4308E1B321450007CB828 /* Gravity-Book-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F430861B321450007CB828 /* Gravity-Book-Italic.ttf */; };
+		B9F4308F1B321450007CB828 /* Gravity-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F430871B321450007CB828 /* Gravity-Book.ttf */; };
+		B9F430901B321450007CB828 /* Gravity-Light-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F430881B321450007CB828 /* Gravity-Light-Italic.ttf */; };
+		B9F430911B321450007CB828 /* Gravity-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F430891B321450007CB828 /* Gravity-Light.ttf */; };
+		B9F430921B321450007CB828 /* Gravity-UltraLight-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F4308A1B321450007CB828 /* Gravity-UltraLight-Italic.ttf */; };
+		B9F430931B321450007CB828 /* Gravity-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F4308B1B321450007CB828 /* Gravity-UltraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +43,6 @@
 
 /* Begin PBXFileReference section */
 		491F24E51B2B3876008CD3F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		493201011B2F481F00113048 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		493201021B2F481F00113048 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		49543A821B2B6109005E9164 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
 		49543A831B2B6109005E9164 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		49543A841B2B6109005E9164 /* WelcomeFlowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeFlowController.h; sourceTree = "<group>"; };
@@ -63,6 +70,16 @@
 		B9F430771B2F4D84007CB828 /* ListEstablishmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListEstablishmentTableViewController.m; sourceTree = "<group>"; };
 		B9F430791B2F5EEC007CB828 /* SaveEstablishmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveEstablishmentTableViewController.h; sourceTree = "<group>"; };
 		B9F4307A1B2F5EEC007CB828 /* SaveEstablishmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveEstablishmentTableViewController.m; sourceTree = "<group>"; };
+		B9F4307F1B31FCCB007CB828 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B9F430801B31FCCB007CB828 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B9F430841B321450007CB828 /* Gravity-Bold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Bold-Italic.ttf"; sourceTree = "<group>"; };
+		B9F430851B321450007CB828 /* Gravity-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Bold.ttf"; sourceTree = "<group>"; };
+		B9F430861B321450007CB828 /* Gravity-Book-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Book-Italic.ttf"; sourceTree = "<group>"; };
+		B9F430871B321450007CB828 /* Gravity-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Book.ttf"; sourceTree = "<group>"; };
+		B9F430881B321450007CB828 /* Gravity-Light-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Light-Italic.ttf"; sourceTree = "<group>"; };
+		B9F430891B321450007CB828 /* Gravity-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-Light.ttf"; sourceTree = "<group>"; };
+		B9F4308A1B321450007CB828 /* Gravity-UltraLight-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-UltraLight-Italic.ttf"; sourceTree = "<group>"; };
+		B9F4308B1B321450007CB828 /* Gravity-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gravity-UltraLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +139,9 @@
 		499CEC8E1B2B36AC00DF341A /* waho */ = {
 			isa = PBXGroup;
 			children = (
+				B9F430821B321450007CB828 /* Resources */,
+				B9F4307F1B31FCCB007CB828 /* MapViewController.h */,
+				B9F430801B31FCCB007CB828 /* MapViewController.m */,
 				499CEC931B2B36AC00DF341A /* AppDelegate.h */,
 				499CEC941B2B36AC00DF341A /* AppDelegate.m */,
 				B9A952271B2B776100485EC8 /* EstablishmentViewController.h */,
@@ -166,6 +186,29 @@
 				499CECAA1B2B36AC00DF341A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9F430821B321450007CB828 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9F430831B321450007CB828 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9F430831B321450007CB828 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9F430841B321450007CB828 /* Gravity-Bold-Italic.ttf */,
+				B9F430851B321450007CB828 /* Gravity-Bold.ttf */,
+				B9F430861B321450007CB828 /* Gravity-Book-Italic.ttf */,
+				B9F430871B321450007CB828 /* Gravity-Book.ttf */,
+				B9F430881B321450007CB828 /* Gravity-Light-Italic.ttf */,
+				B9F430891B321450007CB828 /* Gravity-Light.ttf */,
+				B9F4308A1B321450007CB828 /* Gravity-UltraLight-Italic.ttf */,
+				B9F4308B1B321450007CB828 /* Gravity-UltraLight.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,10 +291,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F430921B321450007CB828 /* Gravity-UltraLight-Italic.ttf in Resources */,
+				B9F430931B321450007CB828 /* Gravity-UltraLight.ttf in Resources */,
+				B9F4308C1B321450007CB828 /* Gravity-Bold-Italic.ttf in Resources */,
 				491F24E61B2B3876008CD3F2 /* README.md in Resources */,
+				B9F430911B321450007CB828 /* Gravity-Light.ttf in Resources */,
+				B9F4308F1B321450007CB828 /* Gravity-Book.ttf in Resources */,
 				499CEC9B1B2B36AC00DF341A /* Main.storyboard in Resources */,
 				499CECA01B2B36AC00DF341A /* LaunchScreen.xib in Resources */,
+				B9F430901B321450007CB828 /* Gravity-Light-Italic.ttf in Resources */,
+				B9F4308D1B321450007CB828 /* Gravity-Bold.ttf in Resources */,
 				499CEC9D1B2B36AC00DF341A /* Images.xcassets in Resources */,
+				B9F4308E1B321450007CB828 /* Gravity-Book-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +323,7 @@
 				499CEC951B2B36AC00DF341A /* AppDelegate.m in Sources */,
 				B9A952291B2B776100485EC8 /* EstablishmentViewController.m in Sources */,
 				499CEC921B2B36AC00DF341A /* main.m in Sources */,
+				B9F430811B31FCCB007CB828 /* MapViewController.m in Sources */,
 				B9F4307B1B2F5EEC007CB828 /* SaveEstablishmentTableViewController.m in Sources */,
 				B9F430781B2F4D84007CB828 /* ListEstablishmentTableViewController.m in Sources */,
 			);

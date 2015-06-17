@@ -26,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="66" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rya-7P-vR8" id="OLG-kL-cAP">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
@@ -103,7 +103,7 @@
                                 <rect key="frame" x="0.0" y="22" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mTJ-5d-MXe" id="QBv-C6-oAH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -280,23 +280,26 @@
         <!--Mapa-->
         <scene sceneID="Tba-4x-uin">
             <objects>
-                <viewController title="Mapa" id="Ynx-Dq-lQS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Lrs-14-Zrh">
+                <viewController title="Mapa" id="Ynx-Dq-lQS" customClass="MapViewController" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="U93-dy-Mmx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="Ztm-YU-o1E">
-                                <rect key="frame" x="0.0" y="-5" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                    </mapView>
                     <tabBarItem key="tabBarItem" title="Item 1" id="NXX-ca-Ugu"/>
-                    <navigationItem key="navigationItem" id="b7X-ON-5U8">
+                    <navigationItem key="navigationItem" id="hwz-fY-tti">
                         <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="rvD-H1-kaA">
+                            <rect key="frame" x="112.5" y="7.5" width="150" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Mapa"/>
+                                <segment title="Lista"/>
+                            </segments>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </segmentedControl>
                     </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="ybm-fV-R1x" id="g2V-ma-8K0"/>
                     </connections>
@@ -311,7 +314,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-18.5" y="2088.5"/>
+            <point key="canvasLocation" x="-654.5" y="2103.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rf9-RZ-9Id">

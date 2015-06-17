@@ -15,43 +15,25 @@
 @implementation MapViewController
 
 - (void)viewDidLoad {
-    _annotation = [[MKPointAnnotation alloc] init];
-    _mapView.delegate = self;
-    _searchBar.delegate = self;
-}
+
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
+                                                  forBarMetrics:UIBarMetricsDefault]; //UIImageNamed:@"transparent.png"
+    self.navigationController.navigationBar.shadowImage = [UIImage new];////UIImageNamed:@"transparent.png"
+    self.navigationController.navigationBar.translucent = YES;
+    self.navigationController.view.backgroundColor = [UIColor clearColor];
+    
+    
+    
+    }
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
     
-    [_searchBar resignFirstResponder];
-    
-    CLGeocoder * geocoder = [[CLGeocoder alloc] init];
-    [geocoder geocodeAddressString:_searchBar.text completionHandler:^(NSArray *placemarks, NSError *error) {
-        
-        CLPlacemark * placemark = [placemarks objectAtIndex:0];
-        
-        MKCoordinateRegion region;
-        CLLocationCoordinate2D novaLocalizacao = [placemark.location coordinate];
-        
-        [_mapView removeAnnotation:_annotation];
-        [_annotation setCoordinate:novaLocalizacao];
-        [_annotation setTitle:_searchBar.text];
-        [_mapView addAnnotation:_annotation];
-        
-        MKCoordinateSpan span;
-        span.latitudeDelta = 1.0;
-        span.longitudeDelta = 1.0;
-        
-        region.span = span;
-        region.center = novaLocalizacao;
-        
-        [_mapView setRegion:region animated:YES];
-        [_mapView regionThatFits:region];
-    }];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
