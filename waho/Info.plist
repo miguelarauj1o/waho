@@ -36,5 +36,16 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gravity-Bold-Italic.ttf</string>
+		<string>Gravity-Bold.ttf</string>
+		<string>Gravity-Book-Italic.ttf</string>
+		<string>Gravity-Book.ttf</string>
+		<string>Gravity-Light-Italic.ttf</string>
+		<string>Gravity-Light.ttf</string>
+		<string>Gravity-UltraLight-Italic.ttf</string>
+		<string>Gravity-UltraLight.ttf</string>
+	</array>
 </dict>
 </plist>

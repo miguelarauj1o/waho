@@ -10,9 +10,10 @@
 @import MapKit;
 
 @interface MapViewController : UIViewController <MKMapViewDelegate, UISearchBarDelegate>
-
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
-@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
-@property (strong, nonatomic) MKPointAnnotation * annotation;
+@property (strong, nonatomic) IBOutlet UITableView *listEstablishmentView;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedControlMap;
+
+- (IBAction)valueChangedMap:(id)sender;
 
 @end

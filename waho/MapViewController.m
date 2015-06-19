@@ -13,22 +13,19 @@
 @end
 
 @implementation MapViewController
+@synthesize mapView, listEstablishmentView;
 
 - (void)viewDidLoad {
-
+    
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
                                                   forBarMetrics:UIBarMetricsDefault]; //UIImageNamed:@"transparent.png"
     self.navigationController.navigationBar.shadowImage = [UIImage new];////UIImageNamed:@"transparent.png"
-    self.navigationController.navigationBar.translucent = YES;
-    self.navigationController.view.backgroundColor = [UIColor clearColor];
+    //self.navigationController.navigationBar.translucent = YES;
+    //self.navigationController.view.backgroundColor = [UIColor clearColor];
     
-    
-    
-    }
+    [super viewDidLoad];
 
--(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
-    
-}
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -36,4 +33,23 @@
 }
 
 
+- (IBAction)valueChangedMap:(UISegmentedControl *)sender {
+    
+    switch (sender.selectedSegmentIndex) {
+            //map
+        case 0:
+            self.mapView.hidden = NO;
+            self.listEstablishmentView.hidden = YES;
+            break;
+            //list establishment
+        case 1:
+            self.mapView.hidden = YES;
+            self.listEstablishmentView.hidden = NO;
+            break;
+            
+        default:
+            break;
+    }
+    
+}
 @end

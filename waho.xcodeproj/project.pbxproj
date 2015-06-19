@@ -294,15 +294,15 @@
 				B9F430921B321450007CB828 /* Gravity-UltraLight-Italic.ttf in Resources */,
 				B9F430931B321450007CB828 /* Gravity-UltraLight.ttf in Resources */,
 				B9F4308C1B321450007CB828 /* Gravity-Bold-Italic.ttf in Resources */,
-				491F24E61B2B3876008CD3F2 /* README.md in Resources */,
 				B9F430911B321450007CB828 /* Gravity-Light.ttf in Resources */,
 				B9F4308F1B321450007CB828 /* Gravity-Book.ttf in Resources */,
+				B9F430901B321450007CB828 /* Gravity-Light-Italic.ttf in Resources */,
+				491F24E61B2B3876008CD3F2 /* README.md in Resources */,
+				B9F4308D1B321450007CB828 /* Gravity-Bold.ttf in Resources */,
+				B9F4308E1B321450007CB828 /* Gravity-Book-Italic.ttf in Resources */,
+				499CEC9D1B2B36AC00DF341A /* Images.xcassets in Resources */,
 				499CEC9B1B2B36AC00DF341A /* Main.storyboard in Resources */,
 				499CECA01B2B36AC00DF341A /* LaunchScreen.xib in Resources */,
-				B9F430901B321450007CB828 /* Gravity-Light-Italic.ttf in Resources */,
-				B9F4308D1B321450007CB828 /* Gravity-Bold.ttf in Resources */,
-				499CEC9D1B2B36AC00DF341A /* Images.xcassets in Resources */,
-				B9F4308E1B321450007CB828 /* Gravity-Book-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
